@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Trip Around the Sun – Birthday & Anniversary Reminder</title>
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Safari Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6757988401" />
+
+    <!-- Basic SEO -->
+    <meta name="description" content="A free, beautifully simple birthday and anniversary reminder app. No subscriptions. Free forever." />
+    <meta name="keywords" content="birthday reminder,anniversary reminder,birthday app,anniversary app" />
+
+    <!-- Minimal styling -->
+    <style>
+        :root {
+            --text: #111;
+            --subtle: #666;
+            --bg: #fff;
+            --accent: #007aff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Helvetica, Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            padding: 32px 20px;
+            max-width: 420px;
+        }
+
+        .icon {
+            width: 125px;
+            height: 125px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 0 0 12px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--subtle);
+            margin: 0 0 24px;
+        }
+
+        .app-store {
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        .app-store img {
+            height: 54px;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: var(--subtle);
+        }
+
+        .footer a {
+            color: var(--subtle);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+<main class="container">
+    <img
+            src="/tats-icon.png"
+            alt="Trip Around the Sun App Icon"
+            class="icon"
+    />
+
+    <h1>Trip Around the Sun</h1>
+
+    <p>
+        A free, beautifully simple birthday &amp; anniversary reminder app.
+        No subscriptions. Free forever.
+    </p>
+
+    <a
+            class="app-store"
+            href="https://apps.apple.com/app/id6757988401"
+            target="_blank"
+            rel="noopener"
+    >
+        <img
+                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store"
+        />
+    </a>
+
+    <div class="footer">
+        <p>
+            Questions or feedback? Contact us at
+            <script>
+                const emailAscii = [116, 97, 116, 115, 64, 116, 99, 122, 46, 104, 117];
+                document.write('<a href="mailto:');
+                for (let i = 0; i < emailAscii.length; i++) {
+                    document.write(String.fromCharCode(emailAscii[i]));
+                }
+                document.write('">');
+                for (let i = 0; i < emailAscii.length; i++) {
+                    document.write(String.fromCharCode(emailAscii[i]));
+                }
+                document.write('</a>');
+            </script>
+        </p>
+        <p>
+            <a href="/privacy/">Privacy Policy</a>
+        </p>
+    </div>
+</main>
+</body>
+</html>

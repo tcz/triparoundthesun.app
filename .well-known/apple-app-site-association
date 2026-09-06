@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5NFBZ9NZTX.com.thecyanzenith.birthday",
+                "paths": ["/card/*"]
+            }
+        ]
+    }
+}
